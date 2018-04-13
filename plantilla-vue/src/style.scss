@@ -117,3 +117,28 @@ footer {
     transform: rotate(360deg);
   }
 }
+
+
+/**
+ * Estilos actor nuevo
+ */
+#cajanuevo {
+  border-radius: 20px;
+  height: 450px;
+  width: 300px;
+  background: linear-gradient(to bottom, #44bc84ff 20%, #44bc8470 80%);
+}
+#titulo{
+  font-size: 30px;
+  border-radius: 5px;
+  font-style: normal;
+  height: 40px;
+  width: 300px;;
+}
+#nombres{
+  font-style: italic;
+  border-radius: 5px;
+  background-color:#44bc84bb;
+  height: 30px;
+  width: 300px;;
+}

@@ -1,20 +1,19 @@
 
 <template>
-  <div class="center">
-
-      <h2>Nuevo actor</h2>
-
+  <div id="cajanuevo"  class="center" >
+      <h2 id="titulo">Nuevo actor</h2>
+      <br>
       <div>
-        <h3>Nombre</h3>
+        <h3 id="nombres">Nombre</h3>
         <input type="text" name="nombre" placeholder="Ingrese Nombre" v-model="actor.firstName" required>
       </div>
+      <br>
       <div>
-        <h3>Apellido</h3>
+        <h3 id="nombres">Apellido</h3>
         <input type="text" name="Apellido" placeholder="Ingrese Apellido" v-model="actor.lastName" required>
       </div>
+      <br>
       <button v-on:click.prevent="post" type="submit" name="agregar"> Aceptar </button>
-
-
   </div>
 </template>
 
