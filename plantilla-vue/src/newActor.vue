@@ -26,13 +26,15 @@ export default {
       actor:{
         firstName:'',
         lastName:'',
+        lastUpdate:''
       }
     }
   },
   methods: {
     post:function(){
+      var update = new Date()
       var actor = this.actor
-      this.actor = {firstName:'' , lastName:''}
+      this.actor = {firstName:'' , lastName:'',lastUpdate:update}
       this.$http.post('http://localhost:8081/actors/create', actor
       ).then(function(data){
         console.log(data);
